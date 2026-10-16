@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	CD image configuration processed by CMake and used by mkpsxiso.
+-->
+<iso_project>
+	<track type="data">
+		<identifiers
+			system			="PLAYSTATION"
+			volume			="DS_TESTER"
+			volume_set		="DS_TESTER"
+			publisher		="FSMAKER"
+			data_preparer	="PSn00bSDK ${PSN00BSDK_VERSION}"
+			application		="PLAYSTATION"
+			copyright		="README.TXT;1"
+		/>
+
+		<!--
+			No license file is included: this image boots fine from an ODE such
+			as PicoStation/xStation, or via FreePSXBoot/UniROM. Consoles with a
+			modchip that enforce the license check on PAL/JP units may need a
+			region-matching license.dat to be uncommented here.
+		-->
+		<!--<license file="${PROJECT_SOURCE_DIR}/license.dat" />-->
+
+		<directory_tree>
+			<file name="SYSTEM.CNF"	type="data" source="${PROJECT_SOURCE_DIR}/system.cnf" />
+			<file name="DSTEST.EXE"	type="data" source="dstest.exe" />
+
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+</iso_project>
