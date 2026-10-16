@@ -71,6 +71,16 @@ on ODEs and with FreePSXBoot/UniROM. On a console with a modchip that enforces
 the license check (PAL/JP), uncomment the `<license>` entry in `iso.xml` and
 provide a matching `license.dat`.
 
+### License
+
+Released under the **MIT License** — see [LICENSE](LICENSE). You are free to
+use, modify and redistribute this project, including forks and derivative
+works; just keep the copyright notice. Forks and pull requests are welcome.
+
+Note: `spi.c`/`spi.h` come from the PSn00bSDK example and are licensed under
+the Mozilla Public License 2.0 (see the file headers); MIT applies to the rest
+of the project.
+
 ### Credits
 
 The SPI controller driver (`spi.c`/`spi.h`) is taken from the PSn00bSDK
@@ -144,6 +154,16 @@ L'immagine CD è avviabile senza file di licenza, quindi funziona subito sugli
 ODE e con FreePSXBoot/UniROM. Su una console con modchip che impone il check di
 licenza (PAL/JP), decommenta la voce `<license>` in `iso.xml` e fornisci un
 `license.dat` corrispondente.
+
+### Licenza
+
+Rilasciato con **licenza MIT** — vedi [LICENSE](LICENSE). Sei libero di usarlo,
+modificarlo e ridistribuirlo, inclusi fork e lavori derivati; basta mantenere
+l'avviso di copyright. Fork e pull request sono benvenuti.
+
+Nota: `spi.c`/`spi.h` provengono dall'esempio di PSn00bSDK e sono sotto
+Mozilla Public License 2.0 (vedi gli header dei file); la MIT vale per il resto
+del progetto.
 
 ### Crediti
 
