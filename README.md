@@ -54,7 +54,6 @@ Output files (in `build/`):
 
 | File          | Description                                        |
 |---------------|----------------------------------------------------|
-| `dstest.exe`  | PS-EXE executable                                  |
 | `dstest.iso`  | Bootable CD image                                  |
 | `dstest.bin`  | CD image data track (2352-byte sectors)            |
 | `dstest.cue`  | Cue sheet for the data track                       |
@@ -129,7 +128,6 @@ File di output (in `build/`):
 
 | File          | Descrizione                                     |
 |---------------|-------------------------------------------------|
-| `dstest.exe`  | Eseguibile PS-EXE                               |
 | `dstest.iso`  | Immagine CD avviabile                           |
 | `dstest.bin`  | Traccia dati dell'immagine CD (settori 2352)    |
 | `dstest.cue`  | Cue sheet della traccia dati                    |
