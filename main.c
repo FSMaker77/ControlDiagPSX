@@ -523,8 +523,8 @@ static void draw_ui(const PadState pads[2], const PadState *ctl, uint8_t motor_l
 
 	draw_button(  6, 30, 72, 12, "L2", PRESSED(b1, PAD_L2), 84, 84, 120);
 	draw_button(  6, 44, 72, 12, "L1", PRESSED(b1, PAD_L1), 84, 84, 120);
-	draw_button(242, 30, 72, 12, "R1", PRESSED(b1, PAD_R1), 84, 84, 120);
-	draw_button(242, 44, 72, 12, "R2", PRESSED(b1, PAD_R2), 84, 84, 120);
+	draw_button(242, 30, 72, 12, "R2", PRESSED(b1, PAD_R2), 84, 84, 120);
+	draw_button(242, 44, 72, 12, "R1", PRESSED(b1, PAD_R1), 84, 84, 120);
 
 	/* Directional pad */
 
